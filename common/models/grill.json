@@ -1,0 +1,31 @@
+{
+  "name": "Grill",
+  "plural": "Grills",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Art": {
+      "type": "string",
+      "default": "Unbekannt"
+    },
+    "Bezeichnung": {
+      "type": "string",
+      "required": true
+    },
+    "Zustand": {
+      "type": "string",
+      "required": true
+    },
+    "Ort": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
