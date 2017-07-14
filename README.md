@@ -29,14 +29,15 @@ export of module grill function.
 
 grill.json
 Placeholder properties and placeholder, methods, Condition and so on.
+Array for acls or validations.
 
 message.js
 Export of message function, technical function of message function to receiver.
-
+The callback can be done after the I/O Operation is done so another I/O Operation can be processed.
 
 message.json
 Placeholder for array to read values with strings http request over get method.
-
+Return of greetings to the user of type string.
 uberbecue_lb server folder
 
 component-config.json
