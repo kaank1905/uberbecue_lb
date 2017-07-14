@@ -60,12 +60,18 @@ middleware.json
 initialisation of loopback, setting of credentials and maximum age,
 
 model-config.json
-
+loopback models server and mixns integration to apply common logic to a set of models(example timestamps which is
+integrated) integration of access control lists.  Rolemapping for the access of the application.
 
 server.js
+Export of Loopback module, Listening function for the webserver that is listening on a certain port (3000).
+Bootstrap integration and configuration of models, datasources and middleware.
+
 
 boot folder
 
 authentication.js
+Server authentification with module and function export.
 
 root.js
+Routing and showing of server status, get method of server status.
